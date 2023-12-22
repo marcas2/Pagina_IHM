@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/ae360af17e.js" crossorigin="anonymous"></script>  
+      <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	
+	<header class="header">
+        <div class="logo">
+            <img src="https://i.pinimg.com/564x/34/bb/b9/34bbb909e504abb9b4b3ce2da46e4a8f.jpg" alt="Logo de la marca">
+        </div>
+        <nav>
+           
+           <ul class="nav-links">          
+                <li><a href="index.html" style="color: #07b33b;">Inicio</a></li>
+                <li><div><a href="contenido.html">Canciones</a></div></li>
+                <li> 
+                   
+                    <div class="dropdown">
+                      <a class="dropbtn">Generos 
+                        <i class="fa fa-caret-down"></i>
+                      </a>
+                  
+                      <div class="dropdown-content">
+                        <a href="contenido.html#populares">Populares</a>
+                        <a href="contenido.html#pop">Pop</a>
+                        <a href="contenido.html#latin">Latin</a>
+                        <a href="contenido.html#instrumental">Instrumental</a>
+                      </div>
+                    </div>      </li>
+            
+           </ul>     
+              
+        </nav>
+        <a class="btn" href="contacto.html"><button>Contacto</button></a>
+    </header>
+	
+    <div class="contact_form">
+
+    <div class="formulario">		
+		<br>	
+		<center>  <h1 style="font-family:   Montserrat, sans-serif; font-size:2rem;">Contactanos!</h1></center> 
+		<br>
+					<form>				
+
+						
+								<p>
+									<label for="nombre" class="colocar_nombre">Nombre
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+								</p>
+							
+								<p>
+									<label for="email" class="colocar_email">Email
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+								</p>
+						
+								<p>
+									<label for="telefone" class="colocar_telefono">Teléfono
+									</label>
+										<input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+								</p>		
+							
+								<p>
+									<label for="website" class="colocar_website">Sitio web
+									</label>
+										<input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+								</p>		
+							
+								<p>
+									<label for="asunto" class="colocar_asunto">Asunto
+										<span class="obligatorio">*</span>
+									</label>
+										<input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+								</p>		
+							
+								<p>
+									<label for="mensaje" class="colocar_mensaje">Mensaje
+										<span class="obligatorio">*</span>
+									</label>                     
+                               		  <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                               	</p>	  								
+							
+								<button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+								<p class="aviso">
+									<span class="obligatorio"> * </span>los campos son obligatorios.
+								</p>					
+						
+					</form>
+		</div>	
+	</div>
+    <br>
+    <footer style="background-color:  #59725f; margin-left: -0px; margin-right: -0px; margin-top: 30px; bottom: 0; width: 100%; height:70px;font-family:Quicksand; text-align:center;">
+        
+        <div class="titulo" style="width: 100%;">
+            <a href="index.html" style="margin-left: 50px; margin-right: 50px; margin-top: 10px; font-size: 18px; color: #ffffff;">Inicio</a>
+            <a href="contenido.html" style="margin-left: 50px; margin-right: 50px; margin-top: 10px; font-size: 18px; color: #ffffff;">Musica</a>
+            <a href="contacto.html" style="margin-left: 50px; margin-right: 50px; margin-top: 10px; font-size: 18px; color: #ffffff;">Contacto</a>
+            <a href="#" target="_blank" style="margin-left: 50px; margin-right: 50px; margin-top: 10px; font-size: 18px; color: #ffffff;"><i class="fab fa-facebook"></i></a>
+            <a href="#" target="_blank" style="margin-left: 50px; margin-right: 50px; margin-top: 10px; font-size: 18px; color: #ffffff;"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank" style="margin-left: 50px; margin-right: 50px; margin-top: 10px; font-size: 18px; color: #ffffff;"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" style="margin-left: 50px; margin-right: 50px; margin-top: 10px; font-size: 18px; color: #ffffff;"><i class="fab fa-linkedin"></i></a>
+                <br>
+            <hr >
+                <br style="width: 80%;
+                border: 1px solid #ffffff;">
+            <p  style="font-size: 14px; color: #ffffff;">&copy; 2023 Wave Player. Todos los derechos reservados.</p>
+        </div>
+    
+    </footer>
+</body>
+</html>
